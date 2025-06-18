@@ -1,0 +1,6 @@
+gradio
+requests
+pillow
+numpy
+opencv-python-headless
+try-on-diffusion-client

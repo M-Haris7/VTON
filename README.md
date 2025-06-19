@@ -18,7 +18,10 @@ Try the app live on Hugging Face Spaces: https://huggingface.co/spaces/ThatITGuy
 
 ## 📸 Screenshots
 
-*Add screenshots of your app in action here*
+![WhatsApp Image 2025-06-19 at 11 56 50_a3fdff52](https://github.com/user-attachments/assets/8d84e768-c1bc-42a5-836c-31dc4fe241dd)
+![WhatsApp Image 2025-06-19 at 11 57 01_5bf7d910](https://github.com/user-attachments/assets/b909ddd3-0195-4cdc-a64d-a776b882fca4)
+
+
 
 ## 🛠️ Installation
 
@@ -131,20 +134,6 @@ The app integrates with the Try-On Diffusion API through a custom client that ha
 4. Set `RAPIDAPI_KEY` as a repository secret
 5. The app will automatically build and deploy
 
-### Docker Deployment
-
-```dockerfile
-FROM python:3.10-slim
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-
-COPY . .
-EXPOSE 7860
-
-CMD ["python", "app.py"]
-```
 
 ### Local Development
 
@@ -156,39 +145,8 @@ pip install -e .
 python app.py --reload
 ```
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Development Setup
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some amazing feature'`)
-5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
-
-### Code Style
-
-- Follow PEP 8 guidelines
-- Use meaningful variable names
-- Add comments for complex logic
-- Update documentation for new features
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ⚠️ Disclaimer
-
-This application is for educational and entertainment purposes. The quality of try-on results depends on:
-- Input image quality
-- Lighting conditions
-- Pose and positioning
-- API service availability
-
-Results may not always be perfectly accurate and should not be used as the sole basis for purchasing decisions.
 
 ## 🆘 Troubleshooting
 
@@ -208,25 +166,11 @@ Results may not always be perfectly accurate and should not be used as the sole 
 - Ensure the person is facing forward
 - Try different clothing items or poses
 
-### Getting Help
 
-- Open an issue on GitHub
-- Check the [Discussions](../../discussions) section
-- Review existing issues for solutions
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Try-On Diffusion API](https://rapidapi.com/try-on-diffusion/api/try-on-diffusion) for the AI try-on capabilities
 - [Gradio](https://gradio.app/) for the amazing web interface framework
 - [Hugging Face Spaces](https://huggingface.co/spaces) for hosting
 
-## 📊 Stats
 
-![GitHub stars](https://img.shields.io/github/stars/your-username/virtual-try-on-app)
-![GitHub forks](https://img.shields.io/github/forks/your-username/virtual-try-on-app)
-![GitHub issues](https://img.shields.io/github/issues/your-username/virtual-try-on-app)
-![GitHub license](https://img.shields.io/github/license/your-username/virtual-try-on-app)
-
----
-
-**Made with ❤️ by [Your Name](https://github.com/your-username)**
